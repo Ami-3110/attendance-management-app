@@ -11,9 +11,9 @@ class AttendanceSeeder extends Seeder
 {
     public function run(): void
     {
-        // 期間：2025/5/1〜2025/8/14（平日のみ）
-        $start = Carbon::create(2025, 5, 1);
-        $end   = Carbon::create(2025, 8, 14);
+        // 期間：2026/7/1〜2025/8/31（平日のみ）
+        $start = Carbon::create(2026, 7, 1);
+        $end   = Carbon::create(2026, 8, 31);
 
         $users = User::whereIn('email', [
             'test@example.com',

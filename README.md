@@ -21,7 +21,7 @@
 1. DockerDesktopアプリを立ち上げる。
 2. リポジトリをクローン  
    ```bash
-   git clone git@github.com:Ami-3110/mock-case2.git
+   git clone git@github.com:Ami-3110/attendance-management-app.git
    cd mock-case2
    ```
 3. Composerパッケージをインストール
